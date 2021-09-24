@@ -1,0 +1,21 @@
+.collection{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+.books{
+    padding: 2vw;
+    border:cornflowerblue solid 3px;
+}
+.book{
+    border-bottom: #97ff6b solid 3px;
+}
+.tittle{
+    text-align: center;
+    font-size: 3vw;
+}
+.standard{
+    font-weight: bold;
+    margin-right: 2vw;
+}

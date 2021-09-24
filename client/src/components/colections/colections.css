@@ -1,0 +1,126 @@
+
+.collectionContainer{
+    /*border: red solid 3px;*/
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.collection{
+    position: relative;
+    border: green solid 3px;
+    width: 50%;
+    overflow-x:scroll;
+    padding: 2vw;
+}
+
+.collection >div {
+    font-size: 1vw;
+    border-bottom:  solid 2px cornflowerblue;
+}
+.collection__oneBook{
+    display: flex;
+    position: relative;
+    padding: 0.5vw 2vw;
+}
+.collection__oneBook >div{
+    padding-right:1vw ;
+}
+.addCollectionContainer >div{
+padding: 0.5vw 1vw;
+}
+
+
+.delete,.CollectionEdit,.CollectionSafe{
+    border: solid 2px red;
+    position: absolute;
+    right: 0;
+    top:0;
+    font-size: 2vw;
+    width: 3.4vw;
+    height: 3.4vw;
+    border-radius: 4px;
+    text-align: center;
+    background-color: #97ff6b60;
+    backdrop-filter:blur(10px) ;
+    cursor: pointer;
+}
+.delete_book{
+    border: solid 1px red;
+
+    position: relative;
+    text-align: center;
+    font-size: 1vw;
+    width: 1.5vw;
+    height: 1.5vw;
+}
+.CollectionEdit{
+    width: 6vw;
+    right: 6vw;
+
+}
+.CollectionSafe{
+    width: 6vw;
+    right: 15vw;
+}
+.collection__delete:hover{
+    background-color: red;
+    transform: scale(1.01);
+    margin: 0;
+
+}
+.button{
+    width: 100%;
+    height: 3vw;
+    border-radius: 10px;
+    border: green solid 3px;
+    font-size: 2vw;
+    cursor: pointer;
+}
+
+.addCollectionBTN{
+    height: 4vw;
+    font-size: 2.5vw;
+    font-weight: bold;
+}
+
+
+.collection_goTo{
+    border: green dashed 3px;
+
+}
+.addCollectionContainer{
+    position: fixed;
+    border: green solid 3px;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2vw;
+    z-index: 2;
+    backdrop-filter: blur(30px);
+}
+.addCollection{
+    border: solid 3px #ffca4d;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.addCollection *{
+    width: 100%;
+    padding: 0.4vw;
+}
+.editInput{
+    width: 100%;
+}
+
+

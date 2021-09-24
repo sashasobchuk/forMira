@@ -1,0 +1,25 @@
+.bookContainer{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border: 2px solid #ffb213;
+    padding: 1vw;
+
+}
+.bookContainer div{
+    min-width: 10px;
+    font-size: 1.4vw;
+    margin: 1vw 5vw   ;
+}
+
+
+.inputContainer{
+    position: relative;
+    width: 10vw;
+}
+
+
+
+
+
+
