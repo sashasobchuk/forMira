@@ -5,9 +5,9 @@ const Book = ({props}) => {
     let book  = props.book
     let [edit,setEdit]=useState(false)
     let[name,setName]=useState(book.name)
-    let[author,setAuthor]=useState(book.name)
-    let[price,setPrice]=useState(book.name)
-    let[rating,setRating]=useState(book.name)
+    let[author,setAuthor]=useState(book.author)
+    let[price,setPrice]=useState(book.price)
+    let[rating,setRating]=useState(book.rating)
 
 
     return (
